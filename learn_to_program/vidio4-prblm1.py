@@ -1,4 +1,4 @@
-# Creat an Acronym program
+# Create an Acronym program
 # Ask for a string
 string = input("Enter your string to Convert to Acronym: ")
 # Convert the string to uppercase

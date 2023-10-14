@@ -11,7 +11,7 @@ a_list_2 = string.split()
 for i in a_list_2:
     print(i)
 print(f"there is {string.count('o')} character 'o' in the list")
-# i need to find nadjib
+# I need to find nadjib
 print("nadjib is at index", string.find("nadjib"))
 # i want to change annia to feriel
 print(string.replace("annia", "feriel"))
