@@ -4,7 +4,7 @@ with open("MyData.txt", mode="w", encoding="utf-8") as myFile:
 with open("MyData.txt", encoding="utf-8") as myFile:
 
     lineNum = 1
-    while 1:
+    while True:
         line = myFile.readline()
         if not line:
             break
