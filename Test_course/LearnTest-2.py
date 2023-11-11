@@ -1,7 +1,7 @@
 import unittest
 
 
-class LearnTest(unittest.TestCase):
+class LearnTest2(unittest.TestCase):
     def test_sample(self):
         a = [1, 2, 3]
         # b = [1, 3, 3]
