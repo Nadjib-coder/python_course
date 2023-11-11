@@ -5,7 +5,7 @@ def _sum(a, b):
     return a + b
 
 
-class LearnTest(unittest.TestCase):
+class LearnTest1(unittest.TestCase):
     def setUp(self):
         print('SETUP Called ...')
         # Arrange
