@@ -6,7 +6,7 @@ passwd = "user_password"
 db = "db_name"
 
 connection = MySQLdb.connect(host=host, user=user,
-                             passwod=passwod,
+                             passwd=passwd,
                              db=db,
                              charset="utf8")
 
