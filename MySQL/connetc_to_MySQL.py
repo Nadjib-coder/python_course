@@ -5,7 +5,10 @@ user = "user_name"
 passwd = "user_password"
 db = "db_name"
 
-connection = MySQLdb.connect(host=host, user=user, passwod=passwod, db=db)
+connection = MySQLdb.connect(host=host, user=user,
+                             passwod=passwod,
+                             db=db,
+                             charset="utf8")
 
 cur = connection.cursor()
 
