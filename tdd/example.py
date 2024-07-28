@@ -7,6 +7,17 @@ The example module supplies one function, factorial().  For example,
 120
 """
 
+__test__ = {
+    'numbers': """
+>>> factorial(6)
+720
+
+>>> [factorial(n) for n in range(6)]
+[1, 1, 2, 6, 24, 120]
+"""
+}
+
+
 def factorial(n):
     """Return the factorial of n, an exact integer >= 0.
 
@@ -47,8 +58,3 @@ def factorial(n):
         result *= factor
         factor += 1
     return result
-
-
-if __name__ == "__main__":
-    import doctest
-    doctest.testmod()
